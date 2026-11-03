@@ -1,0 +1,832 @@
+Stanford SPHERE Alzheimer's Research
+Final Research Design & Hypotheses — Chat 10 Handoff
+Report
+Date: November 1, 2026
+Project phase: Research Questions & Hypotheses
+Next use: Scientific consistency review of an NHSJS manuscript
+Target journal: National High School Journal of Science (NHSJS), Original Research
+Document classification: Research-design reference, not manuscript prose
+Document status
+This document consolidates the scientific decisions and recommendations established during
+the Research Questions & Hypotheses phase.
+The primary research question, H1–H4 wording, model structure, and research scope are
+reproduced from the completed phase. These represent the selected working design for
+subsequent review.
+They were previously presented as recommended decisions; no separate mentor approval or
+formal analysis-protocol registration was documented.
+No hypothesis testing or biological association analysis was completed during this phase. No
+expected finding should be represented as observed.
+1. Final Research Objective
+The project investigates relationships between two plasma biomarkers—glial fibrillary acidic
+protein (GFAP) and neurofilament light chain (NfL)—and two major measures of
+Alzheimer's-related brain pathology:
+● Amyloid-beta burden measured using amyloid PET.
+● Aggregated tau burden measured using tau PET.
+The objective is to estimate how each plasma marker is associated with continuous brain
+pathology measurements when amyloid and tau PET are considered together.This is an observational association study, not a causal experiment.
+The study uses synthetic multimodal records released through Stanford's Alzheimer's Disease
+Research Center (ADRC) SPHERE initiative.
+Scientific focus
+Primary: GFAP and amyloid PET, adjusted for tau PET.
+Secondary: GFAP and tau PET; NfL and amyloid PET; NfL and tau PET.
+Important change from the original proposal
+The original project attempted to distinguish amyloid-predominant from tau-predominant
+Alzheimer's disease using opposite predicted differences in GFAP and NfL.
+The revised project no longer assumes two biologically distinct Alzheimer's subtypes or
+opposing biomarker relationships.
+Its focus is now conditional biomarker–pathology associations.
+2. Finalized Primary Research Question
+The following is the exact wording retained from the completed phase:
+Among Stanford ADRC SPHERE synthetic records with available plasma
+biomarkers and both PET modalities, is plasma GFAP associated with continuous
+amyloid-PET burden after accounting for tau-PET burden, age, and sex?
+Designation: RQ1 — Primary research question
+Scientific purpose: Determine whether the GFAP–amyloid association persists after
+accounting for tau pathology and selected demographic covariates.
+This question does not require dividing participants into positive and negative PET groups.
+3. Final Primary Hypothesis — H1
+Exact finalized wordingHigher amyloid-PET burden is expected to be associated with higher plasma GFAP
+after adjustment for tau-PET burden, age, and sex.
+Statistical formulation
+● Null hypothesis: β_GFAP,A = 0
+● Alternative hypothesis: β_GFAP,A ≠ 0
+● Expected biological direction: Positive
+● Statistical approach: Two-sided testing
+The coefficient represents the conditional amyloid association in a model where plasma GFAP is
+the outcome.
+Biological justification
+GFAP is an intermediate filament protein expressed prominently in astrocytes.
+Astrocytes participate in structural support, metabolic regulation, inflammatory signaling, and
+responses to neurological damage.
+Amyloid accumulation can be accompanied by changes in astrocytic activity. Plasma GFAP may
+reflect aspects of these responses.
+Therefore, increased amyloid burden provides a biologically plausible reason to expect
+increased GFAP.
+However:
+● GFAP is not exclusive to amyloid-associated pathology.
+● Astrocytic changes can accompany other neurological processes.
+● A positive association would not establish that amyloid directly caused GFAP elevation.
+● The association may differ by disease stage, population, and measurement platform.
+Supporting scientific evidence
+Pereira et al. (2021), R01
+The study examined plasma GFAP associations with amyloid and tau PET.
+GFAP–amyloid relationships persisted after accounting for tau PET, whereas GFAP–tau
+associations did not persist after amyloid adjustment in that study.
+This is the strongest direct precedent for the primary hypothesis.
+DOI: 10.1093/brain/awab223Benedet et al. (2021), R02
+Plasma GFAP showed meaningful associations with amyloid-related pathology across
+Alzheimer's disease populations.
+The study also emphasized that plasma and cerebrospinal fluid GFAP do not perform identically.
+DOI: 10.1001/jamaneurol.2021.3671
+Cicognola et al. (2021), R03
+Plasma GFAP was associated with CSF-defined Alzheimer's pathology and subsequent clinical
+progression in a mild cognitive impairment cohort.
+This supports biological relevance but is not a direct replication of the two-PET model.
+DOI: 10.1186/s13195-021-00804-9
+Bellaver et al. (2023), R04
+Astrocyte-reactivity status influenced observed amyloid–tau relationships in preclinical disease.
+The findings support the importance of astrocytic biology but do not prove that GFAP is specific
+to amyloid.
+DOI: 10.1038/s41591-023-02380-x
+Evidence challenging or qualifying H1
+Salvadó et al. (2023), R17
+Plasma GFAP retained an association with postmortem tau tangle burden after adjustment for
+amyloid plaques.
+This challenges a universal amyloid-only interpretation.
+DOI: 10.15252/emmm.202217123
+Pan et al. (2025), R14
+No statistically significant GFAP difference was reported between A+T− and A−T+ groups.
+The original group hypothesis therefore has an existing direct precedent without the predicted
+significant difference.
+This does not directly refute the revised continuous H1 because the analyses estimate different
+relationships.DOI: 10.1002/alz.70987
+Bianco et al. (2026), R19
+Plasma GFAP was associated with quantitative amyloid-related and tau-related postmortem
+pathology, as well as tissue astrocytic markers.
+These results support a more complex biological interpretation.
+DOI: 10.1002/alz.71883
+Interpretation rules
+A positive adjusted coefficient would be consistent with H1 and with the Pereira precedent.
+A coefficient near zero with substantial uncertainty would not prove that GFAP is unrelated to
+amyloid.
+A negative estimate would oppose the predicted direction and require careful evaluation.
+No possible statistical outcome alone establishes amyloid-specific GFAP biology.
+4. Secondary Research Question and
+Hypothesis — H2
+Exact finalized research question
+Is plasma GFAP associated with regional tau-PET burden after accounting for
+amyloid-PET burden, age, and sex?
+Exact finalized hypothesis wording
+The conditional GFAP–tau association is not assumed to be zero or positive; it will
+be evaluated using a two-sided test.
+Statistical formulation
+● Null: β_GFAP,T = 0
+● Alternative: β_GFAP,T ≠ 0
+● Prespecified direction: None
+● Designation: Secondary hypothesisThe unusual wording of H2 is preserved exactly as previously selected. Its intended meaning is
+that the investigation does not assume either an absent association or a positive association
+before testing.
+Biological rationale
+Although GFAP is often linked to amyloid-associated astrocytic responses, astrocytes may also
+respond to neuronal dysfunction, inflammatory changes, and tau-associated pathology.
+The biological literature does not justify assuming that GFAP has no conditional association with
+tau in every population.
+Relevant supporting and challenging studies
+Pereira et al. (2021), R01: GFAP–tau associations did not persist after amyloid adjustment in
+the investigated PET cohort.
+DOI: 10.1093/brain/awab223
+Bellaver et al. (2023), R04: Astrocytic reactivity was relevant to the amyloid–tau relationship.
+DOI: 10.1038/s41591-023-02380-x
+Salvadó et al. (2023), R17: GFAP retained an adjusted association with postmortem tangles.
+DOI: 10.15252/emmm.202217123
+Bianco et al. (2026), R19: GFAP related to quantitative tau-associated neuropathology
+alongside amyloid and astrocytic measures.
+DOI: 10.1002/alz.71883
+Expected relationship
+No definitive direction is predicted.
+Possible outcomes include:
+● A positive conditional association.
+● A negligible conditional association.
+● A negative conditional association.
+These outcomes must be interpreted using effect sizes, confidence intervals, data quality, and
+the distinction between PET and postmortem pathology.5. Secondary Research Question and
+Hypothesis — H3
+Exact finalized research question
+Is plasma NfL associated with amyloid-PET burden after accounting for tau-PET
+burden, age, and sex?
+Exact finalized hypothesis wording
+The conditional NfL–amyloid association may differ from zero; direction is not
+prespecified.
+Statistical formulation
+● Null: β_NFL,A = 0
+● Alternative: β_NFL,A ≠ 0
+● Prespecified direction: None
+● Designation: Secondary hypothesis
+Biological rationale
+NfL is a structural component of the neuronal cytoskeleton, particularly axons.
+Elevated plasma NfL can reflect neuroaxonal injury associated with multiple neurological
+processes.
+Amyloid-related disease processes may contribute directly or indirectly to neuronal stress and
+injury.
+However, NfL elevation does not specifically identify amyloid pathology.
+Supporting evidence
+Benedet et al. (2020), R05
+NfL exhibited relationships with amyloid PET in cognitively unimpaired participants.
+The associations depended on clinical stage.
+DOI: 10.1093/brain/awaa342
+Mattsson et al. (2017), R06Plasma NfL was associated with Alzheimer's disease and neurodegeneration-related
+measurements.
+This supports NfL as an injury marker, not as an amyloid-specific marker.
+DOI: 10.1001/jamaneurol.2016.6117
+Evidence challenging a specific relationship
+Ashton et al. (2021), R08
+NfL elevations occurred in multiple neurological disorders, demonstrating limited disease
+specificity.
+DOI: 10.1038/s41467-021-23620-z
+Dewenter et al. (2026), R20
+NfL showed strong associations with small-vessel-disease burden.
+This demonstrates an important competing explanation for elevated concentrations.
+DOI: 10.1002/alz.71530
+Expected relationship
+A measurable association is biologically plausible, but neither its presence nor its direction is
+assumed.
+Clinical stage, vascular injury, and other neurological conditions may influence the estimate.
+6. Secondary Research Question and
+Hypothesis — H4
+Exact finalized research question
+Is plasma NfL associated with regional tau-PET burden after accounting for
+amyloid-PET burden, age, and sex?
+Exact finalized hypothesis wordingThe conditional NfL–tau association may differ from zero; direction is not
+prespecified.
+Statistical formulation
+● Null: β_NFL,T = 0
+● Alternative: β_NFL,T ≠ 0
+● Prespecified direction: None
+● Designation: Secondary hypothesis
+Biological rationale
+Tau pathology is associated with neuronal dysfunction and neurodegenerative processes.
+Because NfL reflects neuroaxonal injury, tau-associated neurodegeneration could accompany
+increased plasma NfL.
+Nevertheless, tau PET measures aggregated tau burden rather than axonal injury directly.
+The relationship may be nonlinear or depend on disease stage, other pathology, and time.
+Supporting evidence
+Benedet et al. (2020), R05
+Tau-PET-related NfL associations were reported in cognitively impaired groups.
+This provides conditional support for a relationship, not a universal rule.
+DOI: 10.1093/brain/awaa342
+Mattsson et al. (2017), R06
+NfL was associated with neurodegenerative measures and clinical impairment.
+DOI: 10.1001/jamaneurol.2016.6117
+Challenging evidence
+Salvadó et al. (2023), R17
+NfL did not show significant independent associations with plaque or tangle burden in the
+investigated postmortem sample.
+DOI: 10.15252/emmm.202217123Bianco et al. (2026), R19
+NfL was associated with lower cortical thickness rather than the principal quantified amyloid and
+tau pathological measures in the overall study.
+DOI: 10.1002/alz.71883
+Dewenter et al. (2026), R20
+NfL was particularly associated with vascular imaging burden.
+DOI: 10.1002/alz.71530
+Expected relationship
+No directional prediction was adopted.
+A positive relationship is mechanistically plausible but not guaranteed.
+A weak or statistically nonsignificant association would not imply that NfL is biologically
+unimportant.
+7. Optional Comparative Research
+Question — RQ5
+Exact previously selected wording
+Does the standardized GFAP–amyloid association differ from the standardized
+GFAP–tau association?
+Status: Optional secondary extension; not a required primary or secondary hypothesis.
+Scientific purpose
+Determine whether GFAP shows different conditional associations with amyloid and tau PET.
+Proposed statistical comparison
+Under a defensible common standardization framework:
+● Null: β_GFAP,A − β_GFAP,T = 0● Alternative: β_GFAP,A − β_GFAP,T ≠ 0
+A direct coefficient-contrast test with the appropriate joint covariance estimate would be
+required.
+Critical interpretation
+One significant coefficient and one nonsignificant coefficient do not establish that the
+coefficients differ significantly.
+Furthermore, standardized PET coefficients can still be affected by:
+● Different measurement reliability.
+● Different pathology distributions.
+● Different tracer properties.
+● Different biological dynamic ranges.
+Decision
+Do not make RQ5 a mandatory confirmatory analysis without first establishing that the
+comparison is scientifically interpretable.
+8. Complete Variable Framework
+8.1 Independent variables / predictors
+Variable Operational concept Status
+Amyloid-PET
+burden
+Continuous measure of cerebral amyloid
+accumulation
+Selected; exact composite
+pending
+Tau-PET burden Continuous, anatomically justified measure
+of aggregated tau
+Selected; region/composite
+pending
+These are observational predictors, not experimentally manipulated variables.
+8.2 Dependent variables
+Variable Purpose StatusPlasma
+GFAP
+Primary outcome; also outcome for H2 Selecte
+d
+Plasma NfL Outcome for H3 and H4 Selecte
+d
+The existing blood biomarker file reportedly contains variables labeled GFAP and NFL, alongside
+PTAU217.
+8.3 Core covariates
+Age: Included in the primary and secondary models.
+Sex: Included in the primary and secondary models.
+Other PET modality: Included jointly when estimating a pathology-specific conditional
+association.
+For example, tau PET is included in the GFAP–amyloid model, and amyloid PET is included in
+the GFAP–tau model.
+8.4 Potential additional covariates
+Factor Scientific reason Decision
+APOE ε4 Genetic association with Alzheimer's
+pathology
+Optional sensitivity
+Clinical diagnosis Reflects participant clinical spectrum Describe; possible sensitivity
+Cognitive impairment
+stage
+May modify biomarker associations Not automatically adjusted
+Renal function Can affect plasma marker
+concentrations
+Availability unresolved
+Vascular pathology Competing source of neuroaxonal
+injury
+Availability unresolved
+Other neurological
+disease
+May influence NfL Assess clinically relevant
+composition
+Race/ethnicity Potential contextual and
+population-related effects
+Scientific rationale/coding
+requiredBlood–PET interval Different measurement times may
+affect associations
+Timing unresolved
+Important modeling distinction
+Clinical diagnosis and cognitive impairment may occur downstream of Alzheimer's pathology.
+Adjusting for them can alter the scientific question or introduce bias in some settings.
+They should not automatically be added simply because they appear in the dataset.
+9. Final Measurement Framework
+9.1 Amyloid pathology
+Selected concept: Continuous cerebral amyloid burden measured with amyloid PET.
+Final tracer: Not established.
+Final PET scale: Not established.
+Final cortical composite: Not established.
+Final reference region: Not established.
+Final clinical positivity threshold: Not established.
+The primary analysis does not require a binary amyloid-positivity classification.
+9.2 Tau pathology
+Selected concept: Continuous regional tau PET, reflecting tracer-measured aggregated tau
+burden.
+Final tracer: Not established.
+Final primary anatomical region: Not established.
+Final PET scale: Not established.
+Final reference region: Not established.Final positivity threshold: Not established.
+A biologically justified regional measure is preferred over indiscriminately averaging all available
+tau PET features.
+9.3 Important measurement distinctions
+Amyloid PET, tau PET, plasma phosphorylated tau, and CSF tau represent different biological or
+imaging measurements.
+They are not interchangeable.
+Tau PET does not measure plasma p-tau217.
+GFAP should not be treated as a direct measurement of amyloid plaques.
+NfL should not be treated as a direct measurement of tau tangles.
+9.4 PET-defined groups
+The original proposal considered four profiles:
+Profile Descriptive interpretation
+A−T− Neither PET marker meets its specified positivity threshold
+A+T− Amyloid-positive, tau-negative PET profile
+A−T+ Amyloid-negative, tau-positive PET profile
+A+T+ Both PET markers meet their positivity thresholds
+Final decision: These groups are not required for the primary model.
+Because validated thresholds have not been established, no SPHERE record has been
+assigned a finalized clinical group within this phase.
+The profiles must not automatically be called different Alzheimer's disease subtypes.
+In particular, A−T+ should not be described as a confirmed tau-predominant form of Alzheimer's
+disease.10. SPHERE Dataset Feasibility and
+Known Structure
+The supplied literature-review evidence report documented a structural audit of the downloaded
+release.
+Core modality Reported
+records
+Demographics and
+diagnosis
+644
+Blood biomarkers 618
+Amyloid PET 276
+Tau PET 197
+Four-file overlapping IDs 165
+The four core files reportedly contained unique adrc_id values.
+The 165 overlap is an upper bound on the analysis sample, not a guarantee of 165
+complete, biologically valid observations.
+The report found finite blood biomarker entries in the common subset but also documented five
+nonpositive GFAP values and 27 nonpositive p-tau217 values.
+These observations require data-dictionary interpretation.
+No biomarker–PET regression estimates or hypothesis tests were generated during this phase.
+Proposed inclusion framework
+The model should use synthetic records with:
+1. A valid participant identifier.
+2. Usable plasma GFAP and NfL data.
+3. Usable amyloid-PET measurements.
+4. Usable tau-PET measurements.
+5. Available age and sex.
+6. Measurements compatible with the finalized definitions.
+No automatic restriction to clinically diagnosed Alzheimer's disease was selected.The initial target is the eligible Stanford ADRC SPHERE synthetic subset, whose diagnostic
+composition must be reported.
+Important temporal concern
+The SPHERE methods documentation indicates that participants' most recent visits were
+retained and unavailable measures could be filled using earlier available observations.
+Therefore, a single synthetic record does not establish simultaneous blood and PET acquisition.
+The absence of explicit visit dates in the core files remains a limitation.
+11. Final Statistical Analysis Framework
+11.1 Study design
+Cross-sectional observational association analysis using Stanford SPHERE synthetic data.
+11.2 Primary model
+Conceptual model:
+Standardized GFAP = intercept + βA(standardized amyloid PET) + βT(standardized tau
+PET) + βAge(age) + βSex(sex) + error
+Primary estimand: βA.
+This estimates the conditional association of amyloid burden with GFAP while holding tau PET
+and specified covariates constant.
+The exact coding and scaling decisions must be documented before fitting the final model.
+11.3 Secondary NfL model
+Standardized NfL = intercept + βA(standardized amyloid PET) + βT(standardized tau PET)
++ βAge(age) + βSex(sex) + error
+H3 uses the NfL model's amyloid coefficient.
+H4 uses the NfL model's tau coefficient.H2 uses the tau coefficient of the primary GFAP model.
+11.4 Hypothesis-testing structure
+Hypothesi
+s
+Tested coefficient Direction
+H1 GFAP model: amyloid Positive expected
+H2 GFAP model: tau Two-sided,
+unspecified
+H3 NfL model: amyloid Two-sided,
+unspecified
+H4 NfL model: tau Two-sided,
+unspecified
+Significance framework
+● Primary hypothesis: Two-sided α = 0.05.
+● Secondary hypotheses: Holm adjustment across H2, H3, and H4 for formal inferential
+claims.
+● Optional RQ5: Not automatically added to this confirmatory family.
+Required reporting
+For each model or hypothesis:
+● Actual analytic sample size.
+● Regression estimate.
+● Standard error.
+● 95% confidence interval.
+● Two-sided p-value.
+● Relevant effect-size interpretation.
+● Diagnostics and limitations.
+Do not define success solely by statistical significance.
+11.5 Model assumptions and diagnostics
+Check:
+● Relationship linearity.● Heteroscedasticity.
+● Residual behavior.
+● Influential observations.
+● Predictor collinearity.
+● Missingness and exclusions.
+● Sensitivity to unusual synthetic values.
+Robust uncertainty estimation may be appropriate, subject to the final statistical plan.
+These diagnostics should not be used to select only a favorable model.
+11.6 Prespecified sensitivity priorities
+First: Alternative biologically justified tau PET region/composite.
+Second: Alternative justified amyloid composite, if available.
+Third: APOE ε4 adjustment, provided adequate data quality.
+Fourth: Diagnosis-restricted analysis, provided adequate precision.
+These analyses remain conditional on verified measurements and sample sizes.
+12. Expected Biological Relationships
+The following expectations are theoretical, not observed SPHERE findings.
+Association Prior
+expectation
+Scientific reasoning
+GFAP–amyloid, adjusted
+for tau
+Positive Amyloid-associated astrocytic responses
+GFAP–tau, adjusted for
+amyloid
+Uncertain Astrocytes may respond to tau-related or
+shared processes
+NfL–amyloid, adjusted for
+tau
+Uncertain Amyloid-associated disease can accompany
+neuronal injury
+NfL–tau, adjusted for
+amyloid
+Uncertain Tau-related degeneration may accompany
+neuroaxonal damageInterpretive boundaries
+A positive estimate is not proof of a causal mechanism.
+A negative estimate is not automatically evidence of a protective effect.
+A nonsignificant result does not prove no relationship.
+A stronger coefficient is not necessarily evidence of a more specific biomarker because
+measurement reliability and sampling characteristics may differ.
+No significant or nonsignificant results from SPHERE are claimed here.
+13. Alternative Hypotheses and Designs
+Considered
+Alternative A — Original A+T− versus A−T+ study
+Original H1: GFAP expected to be higher in A+T−.
+Original H2: NfL expected to be higher in A−T+.
+Decision: Replaced as the primary design.
+Reasons:
+● Exact GFAP contrast already investigated.
+● NfL directional justification weak.
+● Discordant group sample sizes unknown.
+● Positivity thresholds not validated.
+● A−T+ is not necessarily Alzheimer's disease.
+● Binary categorization discards continuous information.
+Alternative B — Four AT-group ANCOVA
+Compare GFAP and NfL across A−T−, A+T−, A−T+, and A+T+ groups.
+Decision: Conditional descriptive or secondary work only.
+Reason: Group definitions, clinical meaning, and precision remain unresolved.Alternative C — Continuous GFAP conditional amyloid
+model
+Test GFAP against amyloid while including tau PET, age, and sex.
+Decision: Selected primary design.
+Reason: Stronger empirical justification and fewer dependencies on arbitrary PET cutoffs.
+Alternative D — Cognitive-stage-specific NfL
+associations
+Examine whether NfL associations change with cognitive impairment.
+Decision: Deferred.
+Reasons: Prior literature already addresses stage modification; the available common sample
+may be too small for stable interaction tests.
+Alternative E — Direct standardized coefficient
+comparison
+Compare GFAP–amyloid and GFAP–tau coefficients.
+Decision: Optional RQ5.
+Reason: Potentially informative, but measurement scale and reliability differences complicate
+interpretation.
+Alternative F — Proteomics, immune genes, and machine
+learning
+Explore additional molecular predictors or build classification models.
+Decision: Outside this project's focused primary protocol.
+Reasons: Greater multiple-testing burden, more complicated biological interpretation, and a
+substantially different research question.
+These remain possible future independent projects.14. Final Research Gap and Originality
+Assessment
+Original proposed gap
+The initial proposal claimed that blood GFAP and NfL had not been directly compared against
+amyloid and tau brain pathology in the same participants.
+This claim is unsupported and must not appear in the manuscript.
+Existing literature includes:
+● Direct GFAP/amyloid/tau PET relationships.
+● NfL relationships with both PET modalities.
+● Simultaneous blood biomarker panels.
+● PET-defined AT groups.
+● Postmortem plaque and tangle comparisons.
+● Biomarker timing and disease-stage analyses.
+Pan et al. (2025) specifically addressed the original GFAP discordant-group comparison.
+Revised defensible gap
+The available literature does not establish how the specified conditional GFAP and NfL
+associations will behave in the analyzed Stanford ADRC SPHERE synthetic release using a
+harmonized, prespecified, mutually adjusted model.
+The study can assess consistency with previously published relationships and sensitivity to
+justified PET measurement definitions.
+Originality classification
+Dataset-specific replication and methodological extension.
+Not:
+● A newly discovered biomarker relationship.
+● The first comparison of GFAP and NfL with amyloid and tau.
+● An independently validated clinical discovery.
+● Evidence of a novel causal mechanism.
+Limitations of this contributionA different dataset or statistical adjustment alone does not guarantee strong biological
+originality.
+SPHERE is based on the Stanford ADRC cohort. Possible source-cohort overlap with earlier
+Stanford work is not resolved.
+An independent real-data cohort would provide a stronger replication.
+Whether NHSJS considers this contribution sufficiently original remains an editorial question.
+15. Synthetic Data and Scientific Validity
+The Stanford SPHERE method is designed to preserve important statistical properties while
+protecting real participant information.
+The methods preprint makes strong claims concerning preservation of linear statistics under its
+mathematical framework.
+However, the Stanford ADRC implementation includes:
+● Missingness restoration.
+● Modality-specific availability.
+● Synthetic participant-level values.
+● Potentially noncontemporaneous source measurements.
+The report notes that released per-modality second-order preservation can be close rather than
+exact.
+Final interpretation rule
+Do not assume that every regression performed on a selected, merged, transformed, or
+subgroup-restricted SPHERE sample is numerically identical to its real-data counterpart.
+The conditions required for fidelity must be examined for the actual analysis.
+Additional limitations
+● Synthetic rows do not represent individual real patients.
+● Inferences cannot automatically be generalized to clinical practice.
+● Cross-sectional associations cannot establish temporal ordering.
+● Blood and PET timing may differ.
+● Measurement uncertainty may influence estimates.● Independent validation has not been completed.
+Study attribution
+The applicable Stanford data-use agreement and methods documentation must be followed.
+The SPHERE methods citation is:
+He Z, et al. Unlocking Sensitive Data with SPHERE in the Age of AI. bioRxiv (2026). DOI:
+10.64898/2026.09.01.748580.
+This was a preprint in the evidence review and is not counted as one of the 20 peer-reviewed
+empirical papers.
+The Stanford source acknowledgment specified in the project guidance is:
+"Stanford Alzheimer's Disease Research Center, NIH/NIA grant P30 AG066515."
+The published Stanford DUA provides for a 30-day manuscript review and a 10-day abstract
+review before submission or public disclosure, with a possible additional delay of up to 30 days
+for specified reasons.
+The exact agreement accepted by the data recipient must be checked.
+16. Scientific Decision Register
+The following decisions were established in the completed phase.
+Decision Final working
+status
+Retain GFAP Yes
+Retain NfL Yes
+Retain amyloid PET and tau PET Yes
+Preserve original opposite-direction group hypotheses No
+Use continuous PET predictors Yes
+Use GFAP–amyloid association as primary question YesInclude tau PET in the primary GFAP model Yes
+Include age and sex in the core models Yes
+Test GFAP–tau as secondary Yes
+Test NfL–amyloid as secondary Yes
+Test NfL–tau as secondary Yes
+Impose positive directions on H2–H4 No
+Use two-sided statistical tests Yes
+Use Holm correction across H2–H4 Planned
+Make RQ5 mandatory No
+Treat A−T+ as an AD subtype No
+Use median splits as clinical positivity thresholds No
+Use arbitrary regional PET averages No
+Make machine learning the primary study No
+Describe the project as replication/extension Yes
+Claim prior work has never examined these relationships No
+Claim SPHERE results equal source results without validation No
+Claim hypotheses have been demonstrated No
+Approval qualification
+These are the working scientific decisions carried forward from the prior phase.
+Finalized PET measures and any changes required by dataset documentation should be
+entered in a dated protocol update before outcome testing.
+The earlier design recommended investigator and qualified-mentor review; that approval has not
+been documented here.17. Outstanding Questions and
+Verification Requirements
+17.1 PET definitions
+● What amyloid PET tracer was used?
+● What tau PET tracer was used?
+● Are PET values SUVRs, Centiloids, or another scale?
+● Which reference regions were used?
+● Are validated amyloid cortical summaries supplied?
+● Which tau regional summary best matches the research question?
+● Are the relevant regions affected by off-target binding?
+● Are clinically justified positivity thresholds available, if group analysis is attempted?
+Status: Unresolved.
+17.2 Blood biomarker definitions
+● What assay platform produced GFAP and NfL?
+● What units and transformations apply?
+● How should nonpositive synthetic GFAP values be interpreted?
+● Can transformations be applied without changing the intended interpretation?
+Status: Unresolved.
+17.3 Dataset structure
+● What exact release version is being analyzed?
+● Do the downloaded files match the earlier structural audit?
+● What is the final complete-case sample size?
+● What is the diagnostic composition?
+● Are the blood and PET values temporally aligned?
+● Are categorical labels or orthogonal contrast columns appropriate for the selected
+models?
+Status: Unresolved.
+17.4 Statistical validity
+● Is the association adequately modeled linearly?● Is amyloid–tau collinearity excessive?
+● Are influential synthetic values driving coefficients?
+● Are estimates sufficiently precise?
+● Does model uncertainty behave appropriately?
+● Which results, if any, are supported by source-cohort fidelity evidence?
+● How should missing data and unusual synthetic measurements be handled?
+Status: Not yet evaluated for the final model.
+17.5 Study originality
+● Is the specific SPHERE analysis already published elsewhere?
+● Does the intended analysis add sufficiently meaningful evidence beyond existing cohort
+studies?
+● Is a validation cohort available?
+● Is a replication/extension using synthetic data eligible for NHSJS Original Research?
+Status: Requires additional verification.
+17.6 Journal and data-use requirements
+● Confirm the current NHSJS originality and AI-use policies.
+● Confirm whether this synthetic-data study qualifies.
+● Verify fees and submission requirements.
+● Confirm applicable Stanford DUA obligations.
+● Complete any required Stanford prepublication review.
+● Document actual contributions, data provenance, and AI usage.
+Status: Submission requirements not yet fully resolved.
+18. Guidance for Chat 10 Manuscript
+Review
+Chat 10 should use this document as a scientific consistency reference.
+It must distinguish the research design from actual completed analysis results.
+The manuscript must be checked for the followingResearch question and hypotheses
+● The stated primary question matches RQ1.
+● H1 describes the conditional GFAP–amyloid relationship.
+● H2–H4 are not rewritten as directional hypotheses without a documented protocol
+change.
+● The original opposite-direction AT-group hypotheses are not silently reintroduced.
+Literature review and originality
+● Prior comparative work is acknowledged.
+● Pan et al. (2025) is accurately discussed.
+● Contradictory GFAP–tau findings are not omitted.
+● NfL is not described as tau-specific.
+● The research gap is not overstated.
+Methods
+● PET definitions correspond to the verified release.
+● No unsupported positivity thresholds appear.
+● Sample size reflects the actual analytic dataset.
+● Covariates match the chosen models.
+● Outcome transformations and exclusions are justified.
+● Multiple testing is handled consistently.
+● Synthetic-data limitations are explicit.
+Results
+● Every reported result is traceable to actual completed analysis.
+● Regression coefficients and confidence intervals are accurate.
+● No predicted result is presented as observed.
+● Nonsignificant findings are not interpreted as proof of equivalence.
+● Exploratory analyses are identified as such.
+Discussion
+● Biological interpretation remains associational.
+● Contradictory literature is addressed.
+● No causal claim is made from cross-sectional results.
+● The manuscript does not overstate clinical applicability or novelty.
+Compliance
+● NHSJS requirements are followed.
+● Stanford source and acknowledgment obligations are satisfied.
+● AI assistance is disclosed as required.● Manuscript prose is independently authored under the applicable journal policy.
+AI-use boundary
+The supplied project guidance states that NHSJS permits certain AI-supported research
+activities but restricts AI generation and rewriting of manuscript prose.
+Therefore, Chat 10 should use this report to check scientific accuracy, identify methodological
+errors, examine reasoning, and flag unsupported claims.
+This reference document must not simply be copied into the submitted manuscript.
+19. Verified Scientific Reference Register
+The citations below retain the evidence-report identifiers where applicable.
+GFAP and amyloid/tau
+R01. Pereira JB et al. (2021). Plasma GFAP is an early marker of amyloid-β but not tau
+pathology in Alzheimer's disease. Brain, 144(11), 3505–3516.
+DOI: https://doi.org/10.1093/brain/awab223
+Role: Principal supporting precedent for H1; relevant comparison for H2.
+R02. Benedet AL et al. (2021). Differences Between Plasma and Cerebrospinal Fluid Glial
+Fibrillary Acidic Protein Levels Across the Alzheimer Disease Continuum. JAMA Neurology,
+78(12), 1471–1483.
+DOI: https://doi.org/10.1001/jamaneurol.2021.3671
+Role: Supports GFAP's amyloid-associated biological relevance.
+R03. Cicognola C et al. (2021). Plasma glial fibrillary acidic protein detects Alzheimer
+pathology and predicts future conversion to Alzheimer dementia in patients with mild cognitive
+impairment. Alzheimer's Research & Therapy, 13, 68.
+DOI: https://doi.org/10.1186/s13195-021-00804-9
+Role: GFAP and Alzheimer's-related CSF pathology/prognosis.
+R04. Bellaver B et al. (2023). Astrocyte reactivity influences amyloid-β effects on tau pathology
+in preclinical Alzheimer's disease. Nature Medicine, 29, 1775–1781.
+DOI: https://doi.org/10.1038/s41591-023-02380-x
+Role: Astrocyte biology and the interaction of amyloid and tau processes.
+NfL and neurodegenerationR05. Benedet AL et al. (2020). Stage-specific links between plasma neurofilament light and
+imaging biomarkers of Alzheimer's disease. Brain, 143(12), 3793–3804.
+DOI: https://doi.org/10.1093/brain/awaa342
+Role: Principal biological precedent for H3 and H4; supports stage dependence.
+R06. Mattsson N et al. (2017). Association of Plasma Neurofilament Light With
+Neurodegeneration in Patients With Alzheimer Disease. JAMA Neurology, 74(5), 557–566.
+DOI: https://doi.org/10.1001/jamaneurol.2016.6117
+Role: General NfL/neuroaxonal-injury evidence.
+R08. Ashton NJ et al. (2021). A multicentre validation study of the diagnostic value of plasma
+neurofilament light. Nature Communications, 12, 3400.
+DOI: https://doi.org/10.1038/s41467-021-23620-z
+Role: Evidence against disease-specific interpretation of NfL.
+Direct comparisons and disease progression
+R13. Chatterjee P et al. (2022). Diagnostic and prognostic plasma biomarkers for preclinical
+Alzheimer's disease. Alzheimer's & Dementia, 18(6), 1141–1154.
+DOI: https://doi.org/10.1002/alz.12447
+Role: Direct plasma GFAP/NfL comparison; evaluated at abstract level in the attached review.
+R14. Pan FF et al. (2025). Plasma P-tau217, GFAP, and NfL as biomarkers for Alzheimer's
+disease: role in disease stratification, pathological progression, and cognitive decline.
+Alzheimer's & Dementia, 21(12), e70987.
+DOI: https://doi.org/10.1002/alz.70987
+Role: Critical precedent addressing the original GFAP A+T− versus A−T+ comparison.
+R15. Milà-Alomà M et al. (2025). Timing of Changes in Alzheimer's Disease Plasma
+Biomarkers as Assessed by Amyloid and Tau PET Clocks. Annals of Neurology, 98(3),
+508–523.
+DOI: https://doi.org/10.1002/ana.27285
+Role: Biomarker timing context; does not establish temporal order within SPHERE's
+cross-sectional records.
+R16. Cánovas R et al. (2026). Plasma biomarker progression across the Alzheimer's disease
+amyloid beta and tau positron emission tomography trajectories. Alzheimer's & Dementia, 22(2),
+e71145.
+DOI: https://doi.org/10.1002/alz.71145
+Role: Recent simultaneous amyloid/tau PET and blood biomarker comparison.
+Contradictory pathology evidence and confounding
+R17. Salvadó G et al. (2023). Specific associations between plasma biomarkers and
+postmortem amyloid plaque and tau tangle loads. EMBO Molecular Medicine, 15(5), e17123.DOI: https://doi.org/10.15252/emmm.202217123
+Role: Counterevidence to universal GFAP–amyloid specificity and NfL–tau specificity.
+R18. Arslan B et al. (2025). The impact of kidney function on Alzheimer's disease blood
+biomarkers: implications for predicting amyloid-β positivity. Alzheimer's Research & Therapy, 17,
+48.
+DOI: https://doi.org/10.1186/s13195-025-01692-z
+Role: Renal-function confounding.
+R19. Bianco CR et al. (2026). Associations between plasma biomarker levels and quantitative
+postmortem neuropathologic measures in Alzheimer's disease and related dementias.
+Alzheimer's & Dementia, 22(10), e71883.
+DOI: https://doi.org/10.1002/alz.71883
+Role: GFAP relationships with multiple pathological processes and NfL relationships with
+cortical injury.
+R20. Dewenter A et al. (2026). Differential associations of plasma biomarkers with Alzheimer's
+disease and small vessel disease: A multimodal imaging study. Alzheimer's & Dementia, 22(6),
+e71530.
+DOI: https://doi.org/10.1002/alz.71530
+Role: Vascular injury as an alternative explanation for NfL elevation.
+Supporting sources, outside the peer-reviewed empirical-study count
+S01. Jack CR Jr et al. (2024). Revised criteria for diagnosis and staging of Alzheimer's
+disease: Alzheimer's Association Workgroup. Alzheimer's & Dementia, 20(8), 5143–5169.
+DOI: https://doi.org/10.1002/alz.13859
+Role: Interpretation of amyloid, tau PET, and biomarker profiles. Consensus criteria rather than
+an empirical cohort study.
+S03. He Z et al. (2026). Unlocking Sensitive Data with SPHERE in the Age of AI. bioRxiv.
+DOI: https://doi.org/10.64898/2026.09.01.748580
+Role: SPHERE methodology, provenance, and limitations. Preprint rather than peer-reviewed
+empirical study.
+Evidence provenance
+The source literature review evaluated 20 peer-reviewed studies, with 16 full-text assessments
+and four abstract-level assessments.
+This report emphasizes studies directly relevant to the finalized hypotheses rather than
+reproducing all 20 evidence entries.
+Key citation metadata and DOIs were checked against publisher or PubMed records. The
+supplied evidence review remains the source for the detailed 20-study appraisal.The review was targeted rather than exhaustive. Relevant future publications, corrections, and
+supplemental methods should be checked before manuscript submission.
+20. Final Handoff Summary
+Final primary question
+Is plasma GFAP associated with continuous amyloid-PET burden after adjusting for tau PET,
+age, and sex in eligible Stanford ADRC SPHERE synthetic records?
+(The exact approved working wording appears in Section 2.)
+Final primary prediction
+A positive conditional relationship between amyloid burden and plasma GFAP is expected.
+Final secondary tests
+● Conditional GFAP–tau association.
+● Conditional NfL–amyloid association.
+● Conditional NfL–tau association.
+No direction was adopted for these secondary hypotheses.
+Final research-design selection
+Continuous, mutually adjusted PET regressions are preferred over the original discordant-group
+comparisons.
+Final research-gap classification
+Cohort-specific replication and methodological extension of previously investigated
+biomarker–pathology relationships.
+Key scientific limitation
+The study uses a synthetic release, and fidelity of the exact merged analysis cannot be
+assumed without appropriate evidence.
+Key unfinished workVerification of PET measurements, plasma assay details, analytic sample eligibility,
+transformations, timing, and model fidelity.
+Results status
+No association results were established during the Research Questions & Hypotheses phase.
+Instruction to Chat 10
+Use the exact primary and secondary hypotheses and the established scientific decisions as the
+reference for manuscript review.
+Do not invent results, silently modify hypotheses, substitute unvalidated measurements,
+overstate originality, or represent expected associations as confirmed findings.
+Any change to the analysis design after these decisions must be documented, justified, and
+clearly distinguished from the previously selected plan.
+End of Research Design & Hypotheses Handoff Report.

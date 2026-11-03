@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "date_local": "2026-11-02",
+  "status": "specified before association testing; measurement definitions pending; not externally preregistered",
+  "hypotheses": {"H1": ["GFAP", "amyloid"], "H2": ["GFAP", "tau"], "H3": ["NFL", "amyloid"], "H4": ["NFL", "tau"]},
+  "alpha": 0.05,
+  "sidedness": "two-sided",
+  "primary_outcome_scale": "released numeric scale; no log, shift, clipping or deletion of negative synthetic values",
+  "covariance": "HC3",
+  "reference_distribution": "Student t with n minus rank(X) degrees of freedom; approximate robust inference",
+  "secondary_family": ["H2", "H3", "H4"],
+  "secondary_correction": "Holm",
+  "common_sample": true,
+  "seed": 20261102,
+  "measurement_contract": {
+    "amyloid_column": null,
+    "amyloid_definition_and_source": null,
+    "tau_column": null,
+    "tau_definition_and_source": null,
+    "sex_encoding_and_source": null,
+    "plasma_scale_and_source": null,
+    "release_inference_qualification": null
+  }
+}

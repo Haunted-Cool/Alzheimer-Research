@@ -1,0 +1,49 @@
+{
+  "status": "EXECUTED: exploratory regional release associations",
+  "original_H1_H4": "NOT EXECUTED",
+  "n": 165,
+  "finite_exclusions": 0,
+  "regions": 68,
+  "models": 136,
+  "tests": 272,
+  "Holm_pass_count": 50,
+  "by_outcome_predictor": [
+    {
+      "outcome": "GFAP",
+      "predictor": "amyloid",
+      "passes": 50
+    },
+    {
+      "outcome": "GFAP",
+      "predictor": "tau",
+      "passes": 0
+    },
+    {
+      "outcome": "NFL",
+      "predictor": "amyloid",
+      "passes": 0
+    },
+    {
+      "outcome": "NFL",
+      "predictor": "tau",
+      "passes": 0
+    }
+  ],
+  "core_GFAP_nonpositive": 5,
+  "core_NFL_nonpositive": 0,
+  "sex_counts": {
+    "male": 90,
+    "female": 75
+  },
+  "plan_sha256": "857acb31494626554822ee851b5b61f3203facf42f09275f6723d86b055f5e86",
+  "code_sha256": "b00dd39193b647ceab7bc257af1192078b7a047c8d601c8af5cd1db95eb4b82b",
+  "validation": "Independent OLS/HC3/p/CI checked for every main model; all case deletions cross-checked; partial R2 and Holm independently checked",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "full": {
+    "status": "PASS",
+    "mode": "fresh_models_compared_to_reference",
+    "scripts": [
+      "phase34/validate.py",
+      "phase34/regional_extension/run.py",
+      "phase34/regional_extension/run.py",
+      "phase34/regional_extension/verify_and_report.py",
+      "phase34/regional_extension/complete_verification.py",
+      "phase4_results/build_results.py",
+      "chat10_final_results/build_final_report.py"
+    ],
+    "reference_files_unchanged": true
+  },
+  "reference_only": {
+    "status": "PASS",
+    "mode": "reference_outputs_only",
+    "scripts": [
+      "phase34/validate.py",
+      "phase4_results/build_results.py",
+      "chat10_final_results/build_final_report.py"
+    ],
+    "reference_files_unchanged": true
+  },
+  "fresh_environment_installation_tested": false,
+  "published_to_github": false
+}

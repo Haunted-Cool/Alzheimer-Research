@@ -1,0 +1,6 @@
+variable,statistic,value,units
+Common sample,Records,165.0,count
+Readable male label,Records,90.0,count
+Readable female label,Records,75.0,count
+Age at visit,Mean,71.94553389115767,released age scale
+Age at visit,Sample SD,8.800217312696915,released age scale

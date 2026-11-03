@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "main_tests_checked": 272,
+  "models": 136,
+  "n": 165,
+  "df": 160,
+  "max_p_discrepancy": 0.0,
+  "checks": [
+    "source fingerprints",
+    "t=beta/HC3_SE",
+    "two-sided t p",
+    "marginal CI",
+    "Holm",
+    "standardized effects and CIs versus saved SD",
+    "CSV round trip"
+  ],
+  "prior_checks_reused": [
+    "partial R2 reduced SSE identity",
+    "136 independent OLS/HC3 checks",
+    "544 sensitivity coefficients and intervals",
+    "22440 deletion fits",
+    "two complete model runs"
+  ],
+  "original_files_unchanged": true,
+  "input_sha256": {
+    "phase34/regional_extension/results/sample_flow.csv": "0cff52cd5a51902834d99ac9ecdd80703c8be596a40e86b96ec47dd4a3204241",
+    "phase34/regional_extension/results/all_model_diagnostics.pdf": "49923f49daec5ff99f6d6d4e4bac9bb4665cae0bc7eb6c82fa7fa751c5f1f2af",
+    "phase34/regional_extension/results/regional_effects.png": "6c1c3a891c25c74c941a580de3d4448cbadfdff9de95b95489645bbbd9af3e1f",
+    "phase34/regional_extension/results/scaling.csv": "b9e54233c659f82c0deee487089bd77254475dc30937ff93018f23d43ee524c0",
+    "phase34/regional_extension/results/diagnostics.csv": "e9646141130d9639b8719b4d7166b1bd228a7cdc50e698e8a6dfbc77683502fd",
+    "phase34/regional_extension/results/input_manifest.csv": "e2ff12aa008a6d74e0ec57acfb8b77869092f519f1c815084c9025a7f4242672",
+    "phase34/regional_extension/results/regional_results.csv": "e7a209f35445570eab37d72466e62ceff47964ef5cba4bd27d246010b61c2e36",
+    "phase34/regional_extension/results/field_mapping.csv": "04dd8cd317529e035b607f30d3e7fdfd4c94b97652754ec8052dc0ea68172b4f",
+    "phase34/regional_extension/results/sensitivities.csv": "205aa6c4c1c2d8a191dde5a8f3f4fe1a187a636f1e4893bb22d6882960c01853",
+    "phase34/regional_extension/results/independent_numeric_checks.csv": "47b3f9bb73e21c09c1cb4f79425c732388b4a9349960f89792e0d521913673c8",
+    "phase34/regional_extension/results/run_status.json": "5053d2fb3d5b159817d06eb1017beaf3430f42cc0ccbc99d08a1485ac0ad9c9d",
+    "phase34/regional_extension/completion/completion_verification.json": "1edb34dcefcb0719bd2f0a402fa0c92c1ca908f507f7bc2efbf8a7cf0db4018a",
+    "phase34/regional_extension/completion/Diagnostic_Review.md": "ca5ec7442113c934220fa4ca7c6ac38c8cb895a30bfe9d79f5abaf6bd6033860",
+    "phase34/regional_extension/completion/main_results_summary.csv": "21ae1185d5056cfb3c7493e9b6949e8445014c21f9028941309fb3f4e5e2d7ef",
+    "phase34/regional_extension/completion/sensitivity_summary.csv": "3d135c2e3b227644fdd6f43f6a480085cf3ed1393b5edceed95f166837b0be53",
+    "phase34/regional_extension/completion/package_verification.json": "3ca2c899e8b7175838925a63f8614ad8259c1c11d9cee4e9e1bbaa9684a97a6a",
+    "phase34/regional_extension/completion/diagnostic_page_index.csv": "ebead0b33f22cf9238e134931726a22072188575c3372489dff7eeaf8db7db4b",
+    "phase34/regional_extension/completion/environment_versions.json": "3aab0356f9ed0ba66c490ba08c96c547b32c673efaf8a3abbc54c72dec7871cb",
+    "phase34/regional_extension/completion/independent_sensitivity_checks.csv": "e0dacabe897a43b8a768e5658a50b1c634c6c55976c988cb5e31e777227f3e6d",
+    "phase34/regional_extension/completion/all_tests_with_sensitivity_changes.csv": "a8e509424fdb0a8022baf01839804442bfc87817c57677c10a7c74c5facccf76",
+    "phase34/regional_extension/completion/Final_Verified_Results_Summary.md": "1208211d3d565b2fbc579369a75fc4c07c6a615b5c58371a78b9c3730b3c5579",
+    "phase34/results/biomarker_distributions.csv": "8ecd24e3588851921b5546578db30a38b01c52f9458230a6c73950511275edd2",
+    "phase34/results/availability_patterns.csv": "5d72f1388ead31fd0c4c30a5d55370072b849e8f8e0d2ccb47a80ec62c4ac021",
+    "phase34/sources/hypotheses.txt": "24c62d4f89c368457bb0c72d1ff426ae1deb75e516db0f02553b7f9ce9beb335"
+  },
+  "visual_review": "Pending; recorded separately after inspecting the generated figures",
+  "build_script_sha256": "64f73301e2f6af88808a720d5f60118afcf363370b122d7f274884f56ffe33ae"
+}

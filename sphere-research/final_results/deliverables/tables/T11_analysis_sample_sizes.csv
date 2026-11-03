@@ -1,0 +1,9 @@
+analysis,model_or_variable_count,records_per_analysis,residual_df,purpose
+Main regional OLS,136,165,160,272 focal tests
+Quadratic-age sensitivity,136,165,159,272 focal estimates and intervals; descriptive
+Numeric-sex sensitivity,136,165,160,272 focal estimates and intervals; descriptive
+Conventional SE comparison,136,165,160,272 focal SE comparisons; same fitted main models
+Single-record deletion,22440,164,159,One record omitted from each main model; original scaling
+Reduced models for partial R2,272,165,161,Omit one PET predictor; descriptive fit comparison
+Blood descriptive audit,3 variables,618,not applicable,"GFAP, NFL, PTAU217"
+Common-core descriptive audit,3 variables,165,not applicable,"GFAP, NFL, PTAU217"

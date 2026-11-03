@@ -1,0 +1,9 @@
+biomarkers,imaging_amyloid,imaging_tau,n
+True,False,False,321
+True,True,True,165
+True,True,False,105
+True,False,True,27
+False,False,False,19
+False,True,True,4
+False,True,False,2
+False,False,True,1

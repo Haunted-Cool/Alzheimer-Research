@@ -1,0 +1,21 @@
+{
+  "version": "E1",
+  "date_local": "2026-11-02",
+  "status": "Exploratory extension specified before inspecting regional association results; not preregistered",
+  "question": "Within the linked synthetic release, how are GFAP and NFL associated with each released cortical amyloid field conditional on the same-region tau field, and vice versa, age and readable synthetic sex label?",
+  "original_H1_H4_status": "Unresolved measurement definitions; this extension does not complete those biological hypotheses",
+  "region_rule": "All exact shared headers starting Mean.ctx-lh- or Mean.ctx-rh-; no averaging or outcome-based region selection",
+  "expected_regions": 68,
+  "outcomes": ["GFAP", "NFL"],
+  "sex_main": "Readable released sex: female=0, male=1; association with this synthetic label, not certified source-compatible adjustment",
+  "scaling": "Center and divide each PET field and age by common-sample SD ddof=1; keep outcomes on released scale",
+  "sample": "One common complete finite sample across both outcomes, age, sex, both sex contrasts, and all 136 selected PET fields",
+  "inference": "OLS HC3 with two-sided t reference n-rank(X); approximate synthetic-release model inference only",
+  "alpha": 0.05,
+  "multiplicity": "Holm across all 272 focal PET coefficients, across both outcomes and hemispheres",
+  "sensitivities": ["Quadratic standardized age", "Replace readable sex with sex_orth_male as a numeric nuisance field; coding sensitivity only", "Conventional OLS SE comparison", "Exact leave-one-out coefficient ranges retaining original scaling"],
+  "sensitivity_inference": "Report coefficients and marginal intervals descriptively; no secondary search for significant findings",
+  "excluded_analyses": ["Clinical PET positivity", "Global burden composites", "Genotype reconstruction", "Log/clipping/winsorization", "Causal inference", "H1-H4 confirmation"],
+  "new_documentation": "User supplied cohort overview naming Florbetaben, FreeSurfer outputs and regional SUVRs. This does not map exact CSV fields to normalized SUVRs or identify tau tracer/reference region.",
+  "measurement_labels": "Regional released PET numeric fields; units/normalization unresolved; do not label results SUVR, Centiloid, pg/mL, or clinical pathology burden"
+}

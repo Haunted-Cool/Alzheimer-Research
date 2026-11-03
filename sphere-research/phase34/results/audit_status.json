@@ -1,0 +1,64 @@
+{
+  "hypothesis_models_executed": false,
+  "reason": "PET summaries and scale, sex encoding, plasma scale, and inference qualification unresolved",
+  "structural_core_n": 165,
+  "core_GFAP_nonpositive": 5,
+  "core_NFL_nonpositive": 0,
+  "selection_description": [
+    {
+      "in_core": true,
+      "n": 165,
+      "age_mean": 71.94553389115767,
+      "age_sd": 8.800217312696915,
+      "sex_counts": {
+        "male": 90,
+        "female": 75
+      },
+      "diagnosis_counts": {
+        "Healthy Control": 59,
+        "Mild Cognitive Impairment": 44,
+        "Probable Alzheimers Disease": 18,
+        "Parkinsons Disease only": 18,
+        "Parkinsons Disease and Mild cognitive impairment": 12,
+        "Lewy Body Disease": 7,
+        "Other": 4,
+        "Parkinsons Disease and Dementia": 2,
+        "Possible Alzheimers Disease": 1
+      }
+    },
+    {
+      "in_core": false,
+      "n": 479,
+      "age_mean": 73.32824608279171,
+      "age_sd": 8.82402786127702,
+      "sex_counts": {
+        "female": 250,
+        "male": 229
+      },
+      "diagnosis_counts": {
+        "Healthy Control": 231,
+        "Mild Cognitive Impairment": 85,
+        "Probable Alzheimers Disease": 57,
+        "Parkinsons Disease only": 52,
+        "Parkinsons Disease and Mild cognitive impairment": 25,
+        "Lewy Body Disease": 18,
+        "Parkinsons Disease and Dementia": 4,
+        "unknown": 2,
+        "Other": 2,
+        "Possible Alzheimers Disease ; Other": 1,
+        "Possible Alzheimers Disease": 1,
+        "Possible Alzheimers Disease ; Lewy Body Disease": 1
+      }
+    }
+  ],
+  "age_standardized_mean_difference": -0.15691008790473635,
+  "code_sha256": "d435b00ea4da561f08537d052ee90ba933d54e8fa5adb615169e5f143ca71885",
+  "protocol_sha256": "07096dae96b83ffb608163841c5dc1a0a02ad71e1096d51eb71eed74ae4b5cc5",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

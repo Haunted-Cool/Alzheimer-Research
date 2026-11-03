@@ -1,0 +1,7 @@
+filenames_in_figures_folder,variables,measurement_units,scientific_purpose
+F1_sample_flow.png; F1_sample_flow.svg,Sequential linked sample counts,Synthetic records (count),Document selection from 644 to 165
+F2_lh_regional_effects.png; F2_lh_regional_effects.svg,Left hemisphere: all GFAP/NFL and amyloid/tau slopes and marginal CIs,Standardized slopes and CIs (unitless),Show all 136 left-hemisphere tests with Holm markers
+F3_rh_regional_effects.png; F3_rh_regional_effects.svg,Right hemisphere: all GFAP/NFL and amyloid/tau slopes and marginal CIs,Standardized slopes and CIs (unitless),Show all 136 right-hemisphere tests with Holm markers
+F4_age_sex_sensitivity.png; F4_age_sex_sensitivity.svg,Main versus quadratic-age/alternate-sex slopes,Standardized slopes (unitless),"Assess coefficient stability, not alternate significance"
+F5_single_record_influence.png; F5_single_record_influence.svg,Main slope versus maximum absolute single-deletion change,Standardized slopes/changes (unitless),Assess individual-record influence for all 272 slopes
+S1_original_model_diagnostics.pdf,136 pages: residual versus fitted; Q-Q; residual versus leverage,Fitted/residual values: released GFAP or NFL units; leverage and theoretical normal quantiles: unitless,Identify residual departures and influential observations

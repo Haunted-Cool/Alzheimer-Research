@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "date_local": "2026-11-02",
+  "purpose": "Complete independent sensitivity verification; no new hypothesis tests",
+  "original_artifacts_unchanged": true,
+  "baseline_sha256": {
+    "results/sample_flow.csv": "0cff52cd5a51902834d99ac9ecdd80703c8be596a40e86b96ec47dd4a3204241",
+    "results/all_model_diagnostics.pdf": "49923f49daec5ff99f6d6d4e4bac9bb4665cae0bc7eb6c82fa7fa751c5f1f2af",
+    "results/regional_effects.png": "6c1c3a891c25c74c941a580de3d4448cbadfdff9de95b95489645bbbd9af3e1f",
+    "results/scaling.csv": "b9e54233c659f82c0deee487089bd77254475dc30937ff93018f23d43ee524c0",
+    "results/diagnostics.csv": "e9646141130d9639b8719b4d7166b1bd228a7cdc50e698e8a6dfbc77683502fd",
+    "results/input_manifest.csv": "e2ff12aa008a6d74e0ec57acfb8b77869092f519f1c815084c9025a7f4242672",
+    "results/regional_results.csv": "e7a209f35445570eab37d72466e62ceff47964ef5cba4bd27d246010b61c2e36",
+    "results/field_mapping.csv": "04dd8cd317529e035b607f30d3e7fdfd4c94b97652754ec8052dc0ea68172b4f",
+    "results/sensitivities.csv": "205aa6c4c1c2d8a191dde5a8f3f4fe1a187a636f1e4893bb22d6882960c01853",
+    "results/independent_numeric_checks.csv": "47b3f9bb73e21c09c1cb4f79425c732388b4a9349960f89792e0d521913673c8",
+    "results/run_status.json": "5053d2fb3d5b159817d06eb1017beaf3430f42cc0ccbc99d08a1485ac0ad9c9d",
+    "repeat/sample_flow.csv": "0cff52cd5a51902834d99ac9ecdd80703c8be596a40e86b96ec47dd4a3204241",
+    "repeat/all_model_diagnostics.pdf": "e517e401753c58823a3bf4c51d607918be89efea36e13d95847c6d5fc3ef8847",
+    "repeat/regional_effects.png": "6c1c3a891c25c74c941a580de3d4448cbadfdff9de95b95489645bbbd9af3e1f",
+    "repeat/scaling.csv": "b9e54233c659f82c0deee487089bd77254475dc30937ff93018f23d43ee524c0",
+    "repeat/diagnostics.csv": "e9646141130d9639b8719b4d7166b1bd228a7cdc50e698e8a6dfbc77683502fd",
+    "repeat/input_manifest.csv": "e2ff12aa008a6d74e0ec57acfb8b77869092f519f1c815084c9025a7f4242672",
+    "repeat/regional_results.csv": "e7a209f35445570eab37d72466e62ceff47964ef5cba4bd27d246010b61c2e36",
+    "repeat/field_mapping.csv": "04dd8cd317529e035b607f30d3e7fdfd4c94b97652754ec8052dc0ea68172b4f",
+    "repeat/sensitivities.csv": "205aa6c4c1c2d8a191dde5a8f3f4fe1a187a636f1e4893bb22d6882960c01853",
+    "repeat/independent_numeric_checks.csv": "47b3f9bb73e21c09c1cb4f79425c732388b4a9349960f89792e0d521913673c8",
+    "repeat/run_status.json": "5053d2fb3d5b159817d06eb1017beaf3430f42cc0ccbc99d08a1485ac0ad9c9d",
+    "plan.json": "857acb31494626554822ee851b5b61f3203facf42f09275f6723d86b055f5e86",
+    "run.py": "b00dd39193b647ceab7bc257af1192078b7a047c8d601c8af5cd1db95eb4b82b",
+    "verification.json": "8f4b806aafaf2fb630e813aba9de41de95c3bb952bb01182bcda4cd65ec577bc",
+    "verify_and_report.py": "4f64f2c0e2c1641f2b013ddb991193265105521999d6d713b231ebf843a2d334",
+    "Exploratory_Regional_Results_and_Methods.md": "786f8035ab16512fedef1971a9f6d2c23076adc6e66eb97bdd6cd4010b6ae7a0"
+  },
+  "repeated_outputs": [
+    {
+      "file": "all_model_diagnostics.pdf",
+      "verified": true,
+      "comparison": "Page count and extracted labels; PDF timestamp metadata excluded"
+    },
+    {
+      "file": "diagnostics.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "field_mapping.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "independent_numeric_checks.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "input_manifest.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "regional_effects.png",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "regional_results.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "run_status.json",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "sample_flow.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "scaling.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    },
+    {
+      "file": "sensitivities.csv",
+      "verified": true,
+      "comparison": "byte comparison"
+    }
+  ],
+  "source_files_checked": 4,
+  "common_sample_independently_rebuilt": 165,
+  "scaling_fields_verified": 137,
+  "sensitivity_models_verified": 272,
+  "sensitivity_coefficients_and_intervals_verified": 544,
+  "max_sensitivity_numeric_discrepancy": 6.750155989720952e-14,
+  "conventional_SE_checks": 272,
+  "previous_leave_one_out_evaluations_verified_in_original_run": 22440,
+  "script_sha256": "c546564e02107d2b4e4b5b812c8262b44248b17eeb496a45ff58181a44371070",
+  "python": "3.12.14"
+}

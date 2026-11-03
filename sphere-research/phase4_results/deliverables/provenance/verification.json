@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "scope": "Two completed actual-data runs compared; this verifier does not refit",
+  "comparisons": [
+    {
+      "file": "all_model_diagnostics.pdf",
+      "comparison": "Page count and extracted labels; PDF timestamp metadata excluded",
+      "match": true,
+      "sha256": "49923f49daec5ff99f6d6d4e4bac9bb4665cae0bc7eb6c82fa7fa751c5f1f2af"
+    },
+    {
+      "file": "diagnostics.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "e9646141130d9639b8719b4d7166b1bd228a7cdc50e698e8a6dfbc77683502fd"
+    },
+    {
+      "file": "field_mapping.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "04dd8cd317529e035b607f30d3e7fdfd4c94b97652754ec8052dc0ea68172b4f"
+    },
+    {
+      "file": "independent_numeric_checks.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "47b3f9bb73e21c09c1cb4f79425c732388b4a9349960f89792e0d521913673c8"
+    },
+    {
+      "file": "input_manifest.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "e2ff12aa008a6d74e0ec57acfb8b77869092f519f1c815084c9025a7f4242672"
+    },
+    {
+      "file": "regional_effects.png",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "6c1c3a891c25c74c941a580de3d4448cbadfdff9de95b95489645bbbd9af3e1f"
+    },
+    {
+      "file": "regional_results.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "e7a209f35445570eab37d72466e62ceff47964ef5cba4bd27d246010b61c2e36"
+    },
+    {
+      "file": "run_status.json",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "5053d2fb3d5b159817d06eb1017beaf3430f42cc0ccbc99d08a1485ac0ad9c9d"
+    },
+    {
+      "file": "sample_flow.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "0cff52cd5a51902834d99ac9ecdd80703c8be596a40e86b96ec47dd4a3204241"
+    },
+    {
+      "file": "scaling.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "b9e54233c659f82c0deee487089bd77254475dc30937ff93018f23d43ee524c0"
+    },
+    {
+      "file": "sensitivities.csv",
+      "comparison": "byte comparison",
+      "match": true,
+      "sha256": "205aa6c4c1c2d8a191dde5a8f3f4fe1a187a636f1e4893bb22d6882960c01853"
+    }
+  ],
+  "prior_source_hashes_match": true,
+  "numeric_check_models": 136,
+  "max_beta_discrepancy": 9.947598300641405e-14,
+  "max_HC3_covariance_discrepancy": 1.5432100042289678e-13,
+  "sensitivity_summary": {
+    "positive_holm_hits": 50,
+    "hit_quadratic_sign_reversals": 0,
+    "hit_sex_contrast_sign_reversals": 0,
+    "hit_leave_one_out_ranges_crossing_zero": 0,
+    "max_VIF_amyloid": 1.5859633247843323,
+    "max_VIF_tau": 1.7224679148505375,
+    "cooks_flag_count_range": [
+      4,
+      12
+    ],
+    "max_abs_studentized_residual": 5.315291760136709,
+    "max_leverage": 0.2355231202779522
+  },
+  "visual_review": "Regional effect plot and first two diagnostic pages inspected. All 136 diagnostic pages generated and label/page-count checked; remaining diagnostic pages not visually reviewed."
+}
